@@ -1,0 +1,76 @@
+/* Chatbot button */
+#chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #AF69EE;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Chatbot container */
+#chatbot-container {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 300px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Hide initially */
+.hidden {
+    display: none;
+}
+
+/* Chatbot header */
+#chatbot-header {
+    background: #AF69EE;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Close button */
+#close-chatbot {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* FAQ Categories */
+#faq-categories {
+    list-style: none;
+    padding: 10px;
+}
+
+#faq-categories li {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+#faq-categories li:hover {
+    background: #f0f0f0;
+}
+
+/* FAQ Questions */
+#faq-questions {
+    padding: 10px;
+}
+
+.faq-item {
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #AF69EE;
+}

@@ -45,10 +45,12 @@ cd faq-chatbot
 const faqData = {
     "category1": [
         { question: "Example question 1?", answer: "This is an example answer." },
-        { question: "Example question 2?", answer: "This is an example answer." }
+        { question: "Example question 2?", answer: "This is an example answer." },
+        { question: "Example question 3?", answer: "This is an example answer." }
     ],
     "category2": [
-        { question: "Example question 1?", answer: "This is an example answer." }
+        { question: "Example question 1?", answer: "This is an example answer." },
+        { question: "Example question 2?", answer: "This is an example answer." }
     ],
     "category3": [
         { question: "Example question 1?", answer: "This is an example answer." }

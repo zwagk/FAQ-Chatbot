@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zwagk FAQ Chatbot</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+
+    <!-- Chatbot Button -->
+    <div id="chatbot-button">💬</div>
+
+    <!-- Chatbot Window -->
+    <div id="chatbot-container" class="hidden">
+        <div id="chatbot-header">
+            <span>FAQ Chatbot</span>
+            <button id="close-chatbot">✖</button>
+        </div>
+        <div id="chatbot-content">
+            <ul id="faq-categories">
+                <li data-category="category1">📂 | Category 1</li>
+                <li data-category="category2">📂 | Category 2</li>
+                <li data-category="category3">📂 | Category 3</li>
+            </ul>
+            <div id="faq-questions" class="hidden"></div>
+        </div>
+    </div>
+
+    <script src="js/chatbot.js" defer></script>
+</body>
+</html>
